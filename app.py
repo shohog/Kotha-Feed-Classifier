@@ -7,7 +7,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-kotha = keras.models.load_model('final_saved_model/')
+kotha = keras.models.load_model('complete_saved_model/')
 print("+"*50, "Model is loaded")
 
 labels = pd.read_csv("labels.txt", sep="\r\n").values
@@ -28,9 +28,9 @@ def prediction():
 
 	image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
-	image = cv2.resize(image, (128,128))
+	image = cv2.resize(image, (64,64))
 
-	image = np.reshape(image, (1,128,128,3))
+	image = np.reshape(image, (1,64,64,3))
 
 	pred = kotha.predict(image)
 
