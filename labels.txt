@@ -1,4 +1,5 @@
 "Imaginary",
+"Art",
 "Food",
 "Nature",
 "Religious",
