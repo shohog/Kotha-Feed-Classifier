@@ -7,7 +7,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-kotha = keras.models.load_model('kothaa_saved_model/')
+kotha = keras.models.load_model('kotha_saved_model/')
 print("+"*50, "Model is loaded")
 
 labels = pd.read_csv("labels.txt", sep="\r\n").values
