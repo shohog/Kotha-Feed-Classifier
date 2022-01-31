@@ -1,0 +1,7 @@
+"Imaginary",
+"Art",
+"Food",
+"Nature",
+"Religious",
+"Sports",
+"Travel"
