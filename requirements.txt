@@ -119,3 +119,4 @@ websocket-client==1.2.1
 Werkzeug==2.0.1
 wrapt==1.12.1
 libgl1
+opencv-python-headless==4.2.0.64
