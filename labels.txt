@@ -1,2 +1,7 @@
-"NUDE",
-"NOT NUDE"
+"Imaginary",
+"Art",
+"Food",
+"Nature",
+"Religious",
+"Sports",
+"Travel"
